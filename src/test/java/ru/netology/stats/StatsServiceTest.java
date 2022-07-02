@@ -64,7 +64,7 @@ public class StatsServiceTest {
         Assertions.assertEquals(expectedNumber, actualNumber);
     }
 
-    //5.Расчет кол-ва месяцев, в которых продажи были ниже среднего
+    //6.Расчет кол-ва месяцев, в которых продажи были выше среднего
     @Test
     public void shouldFindSalesAboveAverage() {
         StatsService service = new StatsService();
